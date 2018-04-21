@@ -7,8 +7,6 @@ const Card = props => (
     <div className="card">
         <div className="img-container">
             <span onClick={() => props.verifyIfClicked(props.id)} className="remove">
-
-               {/*<img alt={props.name} src={require(`./images/boardImages/${props.image}`)} />*/}
                 <img alt={props.name} src={require(`./images/${props.image}`)} />
             </span>
         </div>
