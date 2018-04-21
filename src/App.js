@@ -14,12 +14,72 @@ class App extends Component {
 
 
     state = {
-        Startrek
+        startrek: Startrek,
+        score: 0,
+        highestscore: 0,
+        alreadyclicked: [],
+        message: "Click an image to begin!"
     };
 
+    checkArray = id => {
+        console.log("I make it to the check array function")
+        for(let i = 0; i < this.state.alreadyclicked.length; i++){
+            if(this.state.alreadyclicked[i] === id) {
+                return true
+            }
+        }
+        return false
+    }
+
+    checkHighestScore = () => {
+        if(this.state.highestscore > this.state.score){
+            return this.state.highestscore;
+        } else {
+            return this.state.score;
+        }
+    }
+
+
     verifyIfClicked = id => {
-        alert(`This ${id} has been clicked`);
-        console.log(Startrek);
+        // alert(`This ${id} has been clicked`);
+        // console.log(this.state.startrek);
+        const shuffleArr = this.state.startrek.sort((a,b) => 0.5 - Math.random());
+        if (!Array.isArray(this.state.alreadyclicked) || !this.state.alreadyclicked.length) {
+            // array does not exist, is not an array, or is empty
+
+            this.state.alreadyclicked.push(id);
+            this.setState(
+                {
+                    startrek: shuffleArr,
+                    score: this.state.score + 1,
+                    alreadyclicked: this.state.alreadyclicked,
+                    message: "You guessed correctly!"
+                });
+        } else {
+
+            let result = this.checkArray(id);
+
+            if(result) {
+                const currScore = this.checkHighestScore();
+                this.setState(
+                    {
+                        startrek: shuffleArr,
+                        score: 0,
+                        alreadyclicked: [],
+                        highestscore: currScore,
+                        message: "You guessed incorrectly!"
+                    });
+            } else {
+                this.state.alreadyclicked.push(id);
+                this.setState (
+                    {
+                        startrek: shuffleArr,
+                        score: this.state.score + 1,
+                        alreadyclicked: this.state.alreadyclicked,
+                        message: "You guessed correctly!"
+                    });
+            }
+        }
     };
 
 
@@ -33,19 +93,20 @@ class App extends Component {
                         <a href="">Clicky Game</a>
                     </li>
                     <li>
-                        Click an image to begin!
+                        {this.state.message}
                     </li>
                     <li>
-                        Score: 0 | Top Score: 0
+                        Score: {this.state.score} | Top Score: {this.state.highestscore}
                     </li>
                 </ul>
             </Navbar>
             <Header />
             <Wrapper>
                 {/*<Header />*/}
-                {this.state.Startrek.map(star => (
+                {this.state.startrek.map(star => (
                     <Card
                         verifyIfClicked={this.verifyIfClicked}
+                        key={star.id}
                         id={star.id}
                         name={star.name}
                         picture={star.image}
