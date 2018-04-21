@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="98d83d0a-0f66-4984-b2e5-6ffa15c9fbb9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
+            <state relative-caret-position="827">
               <caret line="111" column="44" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
               <folding>
                 <element signature="e#76#120#0" expanded="true" />
@@ -111,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+            <state relative-caret-position="195">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -165,9 +165,9 @@
         <option value="$PROJECT_DIR$/src/components/Card/Card.css" />
         <option value="$PROJECT_DIR$/src/components/Wrapper/Wrapper.css" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Card/Card.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -352,15 +352,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523839126733</updated>
-      <workItem from="1523839128138" duration="34908000" />
+      <workItem from="1523839128138" duration="35518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34908000" />
+    <option name="totallyTimeSpent" value="35518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="184" y="24" width="1191" height="819" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -372,11 +373,11 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32963988" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="bottom" id="TypeScript" order="1" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.395466" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.395466" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="0" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
@@ -560,36 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="1843" column="32" selection-start-line="1843" selection-start-column="32" selection-end-line="1843" selection-end-column="32" />
-            <folding>
-              <element signature="e#0#41#0" expanded="true" />
-              <element signature="e#0#41#0" expanded="true" />
-              <element signature="e#0#26#0" expanded="true" />
-              <element signature="e#0#42#0" expanded="true" />
-              <element signature="e#0#26#0" expanded="true" />
-              <element signature="e#0#35#0" expanded="true" />
-              <element signature="e#0#26#0" expanded="true" />
-              <element signature="e#0#26#0" expanded="true" />
-              <element signature="e#0#26#0" expanded="true" />
-              <element signature="e#0#28#0" expanded="true" />
-              <element signature="e#0#28#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -626,11 +597,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
+        <state relative-caret-position="827">
           <caret line="111" column="44" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
           <folding>
             <element signature="e#76#120#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="1843" column="32" selection-start-line="1843" selection-start-column="32" selection-end-line="1843" selection-end-column="32" />
+            <folding>
+              <element signature="e#0#41#0" expanded="true" />
+              <element signature="e#0#41#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#42#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#35#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#28#0" expanded="true" />
+              <element signature="e#0#28#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
