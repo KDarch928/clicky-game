@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "pichard",
+    "image": "pichard.jpg"
+  },
+  {
+    "id": 2,
+    "name": "archer",
+    "image": "archer.jpg"
+  },
+  {
+    "id": 3,
+    "name": "bones",
+    "image": "bones.jpg"
+  },
+  {
+    "id": 4,
+    "name": "doctor",
+    "image": "doctor.jpg"
+  },
+  {
+    "id": 5,
+    "name": "janeway",
+    "image": "janeway.jpg"
+  },
+  {
+    "id": 6,
+    "name": "kirk",
+    "image": "kirk.jpg"
+  },
+  {
+    "id": 7,
+    "name": "paris",
+    "image": "paris.jpg"
+  },
+  {
+    "id": 8,
+    "name": "seven of nine",
+    "image": "sevenofnine.jpg"
+  },
+  {
+    "id": 9,
+    "name": "spock",
+    "image": "spock.jpg"
+  },
+  {
+    "id": 10,
+    "name": "sulu",
+    "image": "sulu.jpg"
+  },
+  {
+    "id": 11,
+    "name": "t'pol",
+    "image": "tpol.jpg"
+  },
+  {
+    "id": 12,
+    "name": "troi",
+    "image": "troi.jpg"
+  },
+  {
+    "id": 13,
+    "name": "uhura",
+    "image": "uhura.jpg"
+  },
+  {
+    "id": 14,
+    "name": "worf",
+    "image": "worf.png"
+  }
+]

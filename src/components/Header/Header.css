@@ -1,0 +1,17 @@
+.header {
+    /*min-height: 360px;*/
+    padding-top: 160px;
+    padding-bottom: 30px;
+}
+
+.title {
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+    background: #146aa4;
+    color: #fff;
+    opacity: 0.8;
+}
